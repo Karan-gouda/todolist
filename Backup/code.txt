@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>starbucks Coffee Company</title>
+    <style>
+        
+        body{
+            background-color: #fff;
+            font-weight: 400;
+            font-family:  SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+        }
+        nav{
+            width: 1301px;
+            height: 101px;
+        }
+        nav img{
+            width: 54px;
+            margin: 11px;
+            margin-left: 95px;
+            display: inline-block;
+            float: left;
+            margin-top: 15px;
+        }
+        nav ul{
+            list-style-type: none;
+            float: left;
+        }
+        nav ul li{
+            display: inline-block;
+            padding: 10px;
+            font-weight: 700;
+            margin-top:8px;
+            padding-left: 5px;
+            padding-left: 17px;
+            
+        }
+        #find{
+            float: right;
+            margin-top:38px;
+            font-weight: 550;
+            margin-right: -125px;
+            
+        }
+        #sign{
+            float: right;
+            margin-top:32px;
+            font-weight: 550;
+            margin-right: -240px;
+            border: 1px solid black;
+            border-radius: 20px;
+            height: 23px;
+            width: 70px;
+            text-align: center;
+            padding-top: 5px;
+        }
+        #join{
+           
+            float: right;
+            margin-top:32px;
+            font-weight: 550;
+            margin-right: -351px;
+            border: 1px solid black;
+            border-radius: 20px;
+            height: 23px;
+            width: 92px;
+            text-align: center;
+            padding-top: 5px;
+            background-color: black;
+            color: #fff;
+        }
+        #one h1{
+            text-align: center;
+            color: #fff;
+            margin-top: -9px;
+            padding-top: 25px;
+            font-weight: 400;
+            font-size: 60px;
+        }
+        #one{
+            padding: 0;
+           width:1432px; 
+           height:220px; 
+           background-color: #d50032;;
+           margin-left: 215px;
+        }
+        #one p{
+            color: #fff;
+            text-align: center;
+            font-size: 25px;
+        }
+        #two{
+            margin-top:35px;
+            width:1432px; 
+           height:600px; 
+           background-color: #d50032;;
+           margin-left: 215px;
+        }
+        #two img{
+            width: 715px;
+            height: 600px;
+            float: right;
+        }
+        #two h1{
+            font-weight: 400;
+            font-size: 60px;
+            text-align: center;
+            color: #fff;
+           padding-top: 125px;
+
+        }
+        #x{
+            color: #fff;
+            text-align: center;
+            font-size: 26px;
+        }
+        #comit{
+            color: #fff;
+            text-align: center;
+            font-size:16px;
+            margin-top: 40px;
+            border: 1px solid #fff;
+            border-radius: 30px;
+            height: 28px;
+            width: 180px;
+          margin-left: 267px;
+          padding-top: 7px;
+        }
+        #three{
+            margin-top:35px;
+            width:1432px; 
+           height:600px; 
+           background-color: #00a862;
+           margin-left: 215px;
+        }
+        #three img{
+            width: 715px;
+            height: 600px;
+            float: left;
+        }
+        #three h1{
+            font-weight: 400;
+            font-size: 60px;
+            text-align: center;
+            color:  #1e3932;
+           padding-top: 190px;
+        }
+        #y{
+            text-align: center;
+            font-size: 26px;
+            color: #1e3932;
+            
+        }
+        #order{
+            color: #1e3932;
+            text-align: center;
+            font-size:20px;
+            margin-top: 6px;
+            border: 1px solid #1e3932;
+            border-radius: 30px;
+         float: right;
+        margin-right: 296px;
+        height: 28px;
+        width:123px;
+        padding-top: 5px;
+        font-weight:550;
+        }
+        #four{
+            margin-top:35px;
+            width:1432px; 
+           height:420px; 
+           background-color: #d50032;;
+           margin-left: 215px;
+        }
+        #four img{
+            float: right;
+            width:720px;
+        }
+        #four h1{
+            text-align: center;
+            color: #fff;
+            font-size: 26px;
+            padding-top: 105px;
+        }
+        #four p{
+            text-align: center;
+            color: #fff;
+            font-size: 22px;
+            padding-top: 13px;
+        }
+        #listen{
+            color: #fff;
+           
+            font-weight: 300;
+            margin-top: 40px;
+            border: 1px solid #fff;
+            border-radius: 30px;
+            height: 25px;
+            width: 300px;
+            margin-left: 205px;
+            padding-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="logo.jpg" alt="logo">
+        <ul>
+            <li>MENU</li>
+            <li>REWARDS</li>
+            <li>GIFT CARDS</li>
+        </ul>
+       <p id="find">Find a store</p> 
+       <p id="sign">Sign in</p>
+       <p id="join">Join now</p>
+      
+    </nav>
+    <hr>
+    
+    <div id="one">
+        <h1>CHEER STARTS HERE</h1>
+        <p>Join Starbucks® Rewards to earn free drinks and treats when you <br>order this holiday season.*</p>
+    </div>
+    <div id="two">
+       <img src="pic1.jpg" alt="pic">
+       <h1>Supporting our <br> veteran community</h1>
+       <p id="x">This November, we’re donating $200,000 <br> divided evenly between Team Red, White & <br> Blue and Team Rubicon to support our <br> veteran community.</p>
+       <p id="comit">Our commitment</p>
+    </div>
+    <div id="three">
+<img src="pic2.jpg" alt="pic">
+<h1>Sweet new swirl</h1>
+<p id="y">Introducing the Chocolate Pistachio Swirl <br> with a creamy chocolaty filling and <br> chopped pistachios.</p>
+<p id="order">Order now</p>
+    </div>
+    <div id="four">
+<img src="pic5.webp" alt="pic">
+<h1>A gift to you, from us</h1>
+<p>Alicia’s new Christmas album Santa Baby has us feeling all <br> kinds of festive. Hear her curated playlist filled with <br> holiday classics and original tracks, in stores or stream it <br> now.
+</p>
+<p id="listen">Listen now on Apple Music</p>
+    </div>
+</body>
+</html>
